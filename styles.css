@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(63deg, #999 23%, transparent 23%) 7px 0,
+    linear-gradient(63deg, transparent 74%, #999 78%),
+    linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%),
+    rgb(245, 52, 219);
+  background-size: 16px 48px;
+}
+
+#divone {
+  background-color: pink;
+  border: #333333 solid 1px;
+  color: #333333;
+  border-radius: 18px;
+  text-align: center;
+  width: 20%;
+  padding: 0.8em;
+  display: inline-block;
+  position: absolute;
+  left: calc(50% - 20% / 2);
+  top: calc(70px - (1.6em + 1.75em) / 2);
+}
+
+#divtwo {
+  background-color: #f7f7f7;
+  border: solid grey 1px;
+  border-radius: 18px;
+  text-align: center;
+  margin: 70px auto;
+  width: fit-content;
+  padding: 1.8em;
+  text-align: center;
+  font-size: 1.2em;
+  vertical-align: middle;
+  box-shadow: limegreen 5px 3px;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+#figure img {
+  width: auto;
+  height: 13.5em;
+  border-radius: 18px;
+  box-shadow: grey 5px 3px;
+  margin-top: 1.5em;
+}
+
+#figure {
+  margin-bottom: 2em;
+}
